@@ -1,0 +1,13 @@
+# env file
+*.env
+# virtual env folder
+*venv
+# database files
+*.db
+# Build files
+/src/watercooler.egg-info/
+*.pyc
+.idea/*
+__pycache__/
+# MacOS files
+.DS_Store

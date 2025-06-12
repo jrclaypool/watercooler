@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "watercooler"
+version = "0.1.0"
+description = "A cross-platform CLI tool for interacting with AI services"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+dependencies = [
+    "requests==2.32.3",
+    "aiohttp==3.12.4",
+    # Other dependencies
+]
+
+[project.scripts]
+watercooler = "watercooler.cli:run_main"
